@@ -1,0 +1,226 @@
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+body{
+  font-family: 'Montserrat', sans-serif;
+  min-width: 1410px;
+}
+
+html, body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-width: 1295px;
+}
+.top{
+  height: 20px;
+  width: 100%;
+  background-color: #04e4a2;
+}
+#logo{
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  top:0;
+  left: 200px;
+  width: 215px;
+  height: 50px;
+  background-color: #ef5350;
+  color: #fff;
+font-size: 35px;
+text-align: center;
+padding-top: 30px;
+padding-bottom: 0px;
+box-shadow: 0 0 10px -2px #808080;
+}
+
+
+.contact{
+  position: absolute;
+
+  top: 25px;
+  right: 50px;
+  border-bottom: 3px solid #ffb74d;
+  text-decoration: none;
+  color: #fff;
+}
+
+main .red_rect{
+  margin: 0;
+  width: 100%;
+  height: 610px;
+  background-color: #ef5350;
+}
+
+main .green_stripe1{
+  width: 40%;
+  height: 60px;
+  z-index: 2;
+  background-color: #04e4a2;
+  transform-origin: left center;
+  transform: skewY(30deg) translateY(80px);
+}
+
+main .green_stripe2{
+  width: 40%;
+  height: 60px;
+  z-index: 2;
+  background-color: #69f0ae;
+  transform-origin: left center;
+  transform: skewY(30deg) translateY(78px);
+
+}
+#page-info{
+  position: relative;
+  float: right;
+  width: 30%;
+  height: 300px;
+  margin-right: 160px;
+  margin-top: 250px;
+  color: #fff;
+}
+
+#page-info h1, p, a{
+  font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+#page-info a{
+  position: relative;
+  float: right;
+  margin-top: 25px;
+  margin-right:10px;
+  padding: 5px;
+  width: 120px;
+  height: 20px;
+  text-decoration: none;
+  text-align: center;
+  background-color: #ffb74d;
+  border-radius: 5px;
+}
+
+img#phone{
+
+  z-index: 30;
+  position: absolute;
+  top: 135px;
+  left:190px;
+  width: 390px;
+  height: 815px;
+}
+
+img#mel{
+  z-index: 40;
+  position: absolute;
+  top: 250px;
+  left:220px;
+
+  width: 330px;
+  height: 583px;
+
+}
+
+/*form*/
+
+form {
+  position: absolute;
+  display:block;
+  width: 650px;
+  margin: 0;
+  padding: 0;
+  right: 140px;
+  top: 710px;
+  }
+legend{
+  width: 510px;
+  padding: 5px;
+  color: #ef5350;
+  font-size: 20px;
+
+}
+
+form  input[type="text"], input[type="email"], select{
+  width: 245px;
+  border: 2px solid lightblue;
+  font-style: 16px;
+  padding: 5px;
+  padding-left: 30px;
+  margin: 10px;
+}
+select{
+  display; block;
+  width: 284px;
+  margin: 10px;
+  /*for WebKit*/
+ -webkit-appearance: none;
+ /* for FF */
+  -moz-appearance: none;
+  text-indent: 0.01px;
+  text-overflow: '';
+  /* for IE */
+  -ms-appearance: none;
+  appearance: none!important;
+  background-image: url('/images/stories/select-arrow-pink.png');
+background-position: right center;
+background-repeat: no-repeat;
+
+}
+select option{
+  padding: 5px;
+  padding-left: 30px;
+}
+input[value="First Name"], input[value="Email"]{
+
+}
+textarea{
+  width: 555px;
+  font-style: 16px;
+  margin: 10px;
+  padding: 5px;
+  padding-left: 30px;
+  border: 2px solid lightblue;
+
+}
+form input[type="image"]{
+  margin: 10px;
+
+}
+
+.clearfix{
+  clear: both;
+}
+/*footer*/
+footer{
+  position:absolute;
+  top: 1000px;
+  width: 100%;
+  background-color: #FFFCF2;
+}
+
+.page-footer .footer-copy{
+  display: block;
+  float: left;
+  padding: 20px;
+  padding-top: 30px;
+  margin-left: 190px;
+  color:#636363;
+}
+.page-footer .footer-contact{
+  padding-left: 40px;
+    float: right;
+}
+.page-footer p{
+  display: inline-block;
+  float:left;
+  padding: 20px;
+  color:#636363;
+  margin: 0;
+  margin-right: 550px;
+}
+
+.page-footer .footer-contact img{
+  display: inline-block;
+  float:left;
+  width: 35px;
+  height: 35px;
+  margin-left: -15px;
+  margin-top: 10px;
+}
